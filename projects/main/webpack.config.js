@@ -44,18 +44,24 @@ module.exports = {
       //     singleton: true,
       //   },
       // },
-      shared: [
-        "@angular/core",
-        "@angular/common",
-        "@angular/router",
-        // "../shared-libs/src/projects/main",
-        "shared-libs",
-        "rxjs",
-        "@ngrx/entity",
-        "@ngrx/store",
-        "@ngrx/effects",
-        "@ngrx/store-devtools",
-      ],
+      shared: {
+        "@angular/core": {},
+        "@angular/common": {},
+        "@angular/router": {},
+        "shared-libs": {
+          requiredVersion: '1.1.1',
+          // or set it to false if you are sure there will be no breaking changes
+          // at runtime
+        },
+        // "projects/shared-libs": {
+        //   requiredVersion: '1.1.1',
+        // },
+        "rxjs": {},
+        "@ngrx/entity": {},
+        "@ngrx/store": {},
+        "@ngrx/effects": {},
+        "@ngrx/store-devtools": {},
+      },
     })
   ],
 };

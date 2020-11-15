@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { getData, setData } from 'shared-libs';
+import { setData } from 'shared-libs';
 
 setData('Hello from main!');
 

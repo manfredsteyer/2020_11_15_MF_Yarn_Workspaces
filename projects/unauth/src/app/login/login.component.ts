@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { tap } from 'rxjs/operators';
 
-import { selectHasLoadedCoreData } from '../../../../shared-libs/src/main';
+import { selectHasLoadedCoreData } from 'shared-libs';
 
 @Component({
   selector: 'app-login',

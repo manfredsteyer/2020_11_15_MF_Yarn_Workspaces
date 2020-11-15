@@ -12,7 +12,7 @@ import { ActionReducerMap, StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
-import { coreReducer, CoreState, CoreEffects, initialCoreState } from '../../../shared-libs/src/main';
+import { coreReducer, CoreState, CoreEffects, initialCoreState } from 'shared-libs';
 
 export interface SharedState {
   core: CoreState;

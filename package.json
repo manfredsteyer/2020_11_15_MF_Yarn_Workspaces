@@ -10,13 +10,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "workspaces": ["projects/shared-libs"],
   "private": true,
   "resolutions": {
     "webpack": "^5.0.0"
   },
   "dependencies": {
-    "shared-libs":"0.0.1",
     "@angular-architects/module-federation": "^1.0.2",
     "@angular/animations": "11.0.0",
     "@angular/common": "11.0.0",

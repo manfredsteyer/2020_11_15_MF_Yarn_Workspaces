@@ -19,9 +19,9 @@
     //  "shared-libs": [
     //    "dist/shared-libs"
     //  ],
-      // "@shared-libs": [
-      //   "projects/shared-libs/src/projects/"
-      // ]
+      "shared-libs": [
+        "projects/shared-libs/src/main.ts"
+      ]
     }
   }
 }

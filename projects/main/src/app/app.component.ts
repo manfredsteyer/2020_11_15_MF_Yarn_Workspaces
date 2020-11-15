@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { getData, setData } from 'shared-libs';
+
+setData('Hello from main!');
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'main';
 }

@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
-// import { StateModule } from '@shared-libs';
-import { StateModule } from '../../../shared-libs/src/projects/main';
+import { StateModule } from 'shared-libs';
+// import { StateModule } from '../../../shared-libs/src/main';
 
 import { ActionReducerMap, StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
-import { coreReducer, CoreState, CoreEffects, initialCoreState } from '../../../shared-libs/src/projects/main';
+import { coreReducer, CoreState, CoreEffects, initialCoreState } from '../../../shared-libs/src/main';
 
 export interface SharedState {
   core: CoreState;

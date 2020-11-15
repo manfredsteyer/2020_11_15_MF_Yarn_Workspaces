@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { loadCoreData, getData } from 'shared-libs';
 import { Store } from '@ngrx/store';
-
-import { loadCoreData } from '../../../../shared-libs/src/projects/main';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +8,7 @@ import { loadCoreData } from '../../../../shared-libs/src/projects/main';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  title = 'main: ' + getData();
 
   constructor(private store: Store<{}>) { }
 

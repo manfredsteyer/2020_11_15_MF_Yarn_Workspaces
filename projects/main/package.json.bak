@@ -1,0 +1,7 @@
+{
+    "name": "main",
+    "version": "0.0.1",
+    "dependencies": {
+        "shared-libs": "0.0.1"
+    }
+}

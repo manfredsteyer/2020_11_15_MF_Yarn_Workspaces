@@ -52,6 +52,7 @@ module.exports = {
         "@angular/common",
         "@angular/router",
         // "../shared-libs/src/projects/main",
+        "shared-libs",
         "rxjs",
         "@ngrx/entity",
         "@ngrx/store",
